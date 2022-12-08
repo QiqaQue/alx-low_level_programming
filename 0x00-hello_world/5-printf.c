@@ -8,8 +8,15 @@
 */
 int main(void)
 {
-	
-	printf("with proper grammar, but the outcome is a piece of art, ");
+	/**
+	 * this is a short discrption of printf
+	 *
+	 */	
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	/**
+	 * this is a short discription of Return
+	 *
+	 */
 	return (0);
 
 }
