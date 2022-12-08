@@ -12,7 +12,7 @@ int main(void)
 	 *
 	 */
 
-	printf("with proper grammar, but the outcome is a piece of art,\N");
+	printf("with proper grammar, but the outcome is a piece of art,");
 	/**
 	 * This is short disceiption of return
 	 *
