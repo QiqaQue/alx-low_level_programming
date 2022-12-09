@@ -20,7 +20,6 @@ int main(void)
 	{
 		n = n * -1;
 	}
-	
 	lst = n % 10;
 
 	if (o_n < 0)
@@ -33,6 +32,5 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, lst);
 	else
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lst);
-	
 	return (0);
 }
