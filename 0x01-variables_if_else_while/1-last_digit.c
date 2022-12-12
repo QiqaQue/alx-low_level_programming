@@ -22,10 +22,10 @@ int main(void)
 	}
 	lst = n % 10;
 
-	if (o_n < 0)
+	if (o_n < 0i)
 	{
-		 n = n * -1;
-		 lst = lst  * -1;
+		n = n * -1;
+		lst = lst  * -1;
 	}
 	if (lst > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, lst);
