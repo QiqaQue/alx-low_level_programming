@@ -22,7 +22,7 @@ int main(void)
 	}
 	lst = n % 10;
 
-	if (o_n < 0i)
+	if (o_n < 0)
 	{
 		n = n * -1;
 		lst = lst  * -1;
