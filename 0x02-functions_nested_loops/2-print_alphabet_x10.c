@@ -3,14 +3,12 @@
 /**
  * main - prints 10 times the alphabet, in lowercase, followed by a new line
  *
- * Return: void
- *
+ * Return: void(doesnt return anything)
  *
  */
-
-/*b ffc jb kj h*/
 void print_alphabet_x10(void)
 {
+	/* this is a comm*/
 	char a;
 	int t;
 
