@@ -22,7 +22,13 @@ int main(void)
 		else if (cnt % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d ", cnt);
+		{
+			if (cnt != 100)
+				printf("%d ", cnt);
+			else
+				printf("%d", cnt);
+		}
+
 	}
 	printf("\n");
 	return (0);
