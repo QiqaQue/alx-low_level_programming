@@ -18,10 +18,23 @@ void puts2(char *str)
 		if (i % 2 == 0)
 			printf("%c", str[i]);
 
-	printf("\n");*/
+	printf("\n");
+
+	==================================================
 	for (i = 0; str[i] != '\0'; i += 2)
 	{
 		printf("%c", str[i]);
 	}
-	printf("\n");
+	printf("\n");*/
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
+		i++;
+	}
+	_putchar('\n');
 }
