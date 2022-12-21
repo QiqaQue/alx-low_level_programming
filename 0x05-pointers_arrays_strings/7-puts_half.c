@@ -10,12 +10,22 @@
 
 void puts_half(char *str)
 {
-	int length = strlen(str);
-	int half = length / 2;
+	int i;
+	int half;
 
-	if (length % 2 == 1)
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+
+	half = i / 2;
+
+	if (i % 2 == 1)
+		half++;
+
+	while (half < i)
 	{
-		half = (length - 1) / 2;
+		_putchar(str[half]);
+		half++;
 	}
-	printf("%.*s\n", length - half, str + half);
+	_putchar('\n');
 }
