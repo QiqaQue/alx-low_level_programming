@@ -14,19 +14,6 @@ void puts2(char *str)
 {
 	unsigned int i;
 
-	/*for (i = 0; i < strlen(str) - 1 ; i++)
-		if (i % 2 == 0)
-			printf("%c", str[i]);
-
-	printf("\n");
-
-	==================================================
-	for (i = 0; str[i] != '\0'; i += 2)
-	{
-		printf("%c", str[i]);
-	}
-	printf("\n");*/
-
 	i = 0;
 	while (str[i] != '\0')
 	{
